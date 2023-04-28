@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+document.write(today);
+document.write("<br>");
+
+var todays = new Date();
+var dd = String(todays.getDate() + 1).padStart(2, '0');
+var mm = String(todays.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = todays.getFullYear();
+
+todays = mm + '/' + dd + '/' + yyyy;
+document.write(todays);
+document.write("<br>");
+
+
+var todays = new Date();
+var dd = String(todays.getDate() + 5).padStart(2, '0');
+var mm = String(todays.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = todays.getFullYear();
+
+todays = mm + '/' + dd + '/' + yyyy;
+document.write(todays);
+document.write("<br>");
+
+
+var todays = new Date();
+var dd = String(todays.getDate() + 10).padStart(2, '0');
+var mm = String(todays.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = todays.getFullYear();
+
+todays = mm + '/' + dd + '/' + yyyy;
+document.write(todays);
+document.write("<br>");
+
+
+</script>
+</html>
